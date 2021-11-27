@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'opentelemetry-api', path: '../../../api'
+gem 'opentelemetry-common', path: '../../../common'
+gem 'opentelemetry-instrumentation-base', path: '../../../instrumentation/base'
+gem 'opentelemetry-instrumentation-lowkiq', path: '../../../instrumentation/lowkiq'
+gem 'opentelemetry-sdk', path: '../../../sdk'
+
+gem 'lowkiq'
